@@ -1,0 +1,108 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* custom styles */
+body {
+    background-color: #282e2b;
+}
+.container {
+    max-width: 1330px;
+    margin: 0 92px;
+    padding: 0 32px;
+}
+.article1 {
+
+}
+.article1 h1 {
+    margin: 40px 0;
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: 6px 6px 6px #0a0b0f;
+    text-transform: capitalize;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.flex1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #e90645;
+}
+.flex2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #eae9e6;
+}
+.article1 p {
+    color: #aca48a;
+    line-height: 1.7;
+    margin: 20px 0;
+    font-size: 20px;
+    word-spacing: 3px;
+}
+
+.article2 h2 {
+    margin: 40px 0;
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: 6px 6px 6px #0a0b0f;
+    text-transform: capitalize;
+}
+.article2 p {
+    color: #aca48a;
+    line-height: 1.7;
+    margin: 20px 0;
+    font-size: 20px;
+    word-spacing: 3px;
+}
